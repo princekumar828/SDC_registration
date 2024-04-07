@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "486607685538",
+    "project_id": "student-b9d65",
+    "storage_bucket": "student-b9d65.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:486607685538:android:71a52a7bd563d4b3f2d4fb",
+        "android_client_info": {
+          "package_name": "com.prince.sdcapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA_2stxaZ-ZwU1gSeAlLNjMNNY7A3fCISg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

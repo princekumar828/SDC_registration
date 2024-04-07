@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragment_academic_details">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:layout_marginTop="8dp"
+        android:orientation="vertical">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:orientation="vertical">
+
+            <TextView
+
+                android:textColor="#7F7F7F"
+                android:textSize="14sp"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:text="Roll Number"
+                />
+            <EditText
+                android:id="@+id/rollEdit"
+                android:layout_width="match_parent"
+                android:layout_height="32dp"
+                android:layout_marginTop="8dp"
+                android:inputType="text"
+                android:padding="4dp"
+                android:textColor="@color/black"
+                android:background="@drawable/back_outline"
+                />
+
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:orientation="vertical">
+
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Branch "
+                android:textColor="#7F7F7F"
+                android:textSize="14sp" />
+            <EditText
+                android:id="@+id/branchEdit"
+                android:layout_width="match_parent"
+                android:layout_height="32dp"
+                android:padding="4dp"
+                android:textColor="@color/black"
+                android:layout_marginTop="8dp"
+                android:background="@drawable/back_outline"
+                />
+
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:orientation="vertical">
+
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Year "
+                android:textColor="#7F7F7F"
+                android:textSize="14sp" />
+            <EditText
+                android:id="@+id/yearEdit"
+                android:layout_width="match_parent"
+                android:layout_height="32dp"
+                android:padding="4dp"
+                android:layout_marginTop="8dp"
+                android:textColor="@color/black"
+                android:background="@drawable/back_outline"
+                />
+
+
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+
+            android:orientation="vertical">
+
+            <TextView
+                android:textColor="#7F7F7F"
+                android:textSize="12sp"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:text="Regestriation Slip"
+                />
+            <LinearLayout
+                android:id="@+id/buttonUplode"
+                android:layout_width="93dp"
+                android:layout_height="38dp"
+                android:layout_marginTop="8dp"
+
+                android:layout_alignParentStart="true"
+
+
+                android:layout_alignParentEnd="false"
+                android:background="@drawable/back_outline"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/imageView"
+                    android:layout_width="16dp"
+                    android:layout_height="16dp"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="11dp"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/baseline_add_24" />
+
+                <TextView
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="7dp"
+                    android:layout_marginTop="8dp"
+                    android:text="Uplode"
+                    android:textColor="@color/black"
+                    android:textSize="14sp" />
+
+            </LinearLayout>
+
+
+
+        </LinearLayout>
+
+
+
+
+
+
+
+
+    </LinearLayout>
+
+</FrameLayout>

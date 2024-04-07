@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context=".fragment_basic_info">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:orientation="vertical">
+
+        <TextView
+
+            android:textColor="#7F7F7F"
+            android:textSize="14sp"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="First Name"
+            />
+        <EditText
+            android:id="@+id/fnameEdit"
+            android:layout_width="match_parent"
+            android:textColor="@color/black"
+            android:padding="4dp"
+            android:layout_height="32dp"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/back_outline"
+            />
+
+
+
+    </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:orientation="vertical">
+
+            <TextView
+
+                android:textColor="#7F7F7F"
+                android:textSize="14sp"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:text="Last Name"
+                />
+            <EditText
+                android:id="@+id/lnameEdit"
+                android:layout_width="match_parent"
+                android:layout_height="32dp"
+                android:layout_marginTop="8dp"
+                android:padding="4dp"
+                android:textColor="@color/black"
+                android:background="@drawable/back_outline"
+                />
+
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:textColor="#7F7F7F"
+                android:textSize="12sp"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:text="Date of Birth"
+                />
+            <EditText
+                android:id="@+id/dobEdit"
+                android:inputType="date"
+                android:layout_width="match_parent"
+                android:layout_height="32dp"
+                android:layout_marginTop="8dp"
+                android:padding="4dp"
+                android:textColor="@color/black"
+                android:background="@drawable/back_outline"
+                />
+
+        </LinearLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/eww"
+            >
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+
+
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Gender"
+                    android:textColor="#7F7F7F"
+                    android:textSize="12sp" />
+
+                <EditText
+                    android:id="@+id/genderEdit"
+                    android:layout_width="150dp"
+                    android:layout_height="32dp"
+                    android:maxLength="1"
+                    android:padding="4dp"
+                    android:textColor="@color/black"
+                    android:layout_marginTop="8dp"
+                    android:background="@drawable/back_outline" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_gravity="end"
+
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Age"
+                    android:textColor="#7F7F7F"
+                    android:textSize="12sp" />
+
+                <EditText
+                    android:id="@+id/ageEdit"
+                    android:layout_width="150dp"
+                    android:layout_height="32dp"
+                    android:inputType="number"
+                    android:padding="4dp"
+                    android:textColor="@color/black"
+                    android:layout_marginTop="8dp"
+                    android:background="@drawable/back_outline" />
+
+            </LinearLayout>
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+
+</FrameLayout>
